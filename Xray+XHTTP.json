@@ -20,7 +20,7 @@
             "port": 443,
             "users": [
               {
-                "id": "",
+                "id": "6b39cbd4-334b-42a2-b648-0f1dec32cce1",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -40,8 +40,8 @@
           "serverName": "www.microsoft.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "",
-          "shortId": "",
+          "publicKey": "xprL-RNog2JT3I2DuuHiZKgeGq6cr2XR579edU-phxI",
+          "shortId": "700df1d9",
           "spiderX": "/"
         }
       },
@@ -51,8 +51,12 @@
       }
     },
     {
-      "protocol": "freedom",
-      "tag": "direct"
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
     }
   ],
   "routing": {
